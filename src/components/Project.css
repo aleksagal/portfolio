@@ -1,0 +1,51 @@
+.empty-project pre {
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+    line-height: 30px;
+    color: #575075;
+    white-space: pre-wrap;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 0 3px #36385C;
+    transform: scale(1);
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 3px #36385C, 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project_layout{
+    margin: 3rem;
+}
+
+.project_icon{
+    font-size: 0.8rem;
+}
+
+.project_layout h1{
+    color: #845899;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.project_layout h2{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.project_layout h3{
+    color: #845899;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1.8rem
+}
