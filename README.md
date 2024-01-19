@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+### Introducing Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a one-page portfolio website highlighting my coding projects on GitHub. The website boasts a minimalist design, 
+offering ease of customization, with each project card dynamically updating to ensure anyone can adapt this template for personal use.
 
-## Available Scripts
+![porfolio](https://github.com/aleksagal/portfolio/assets/137703211/c5eb2647-6f11-451d-85c0-b044dea776c0)
 
-In the project directory, you can run:
+#### Features
 
-### `npm start`
+Each project card dynamically displays information such as the project name, description, and technologies used.
+Integrates React icons for a visually appealing representation of the tech stack.
+Includes a "View Project" button that redirects to the respective GitHub repository, enabling users to explore the code behind each project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Responsive Design: Crafted with a mobile-first approach, the portfolio is fully responsive, ensuring a seamless user experience across all devices and screen sizes.
+- Interactive UI: Engage with dynamic elements such as hover animations and live project previews that enhance user engagement.
+- Modern Aesthetics: Featuring a dark theme that highlights content with neon accents, providing a contemporary and stylish look.
 
-### `npm test`
+#### Technology used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: Utilized for its component-based architecture, enabling scalable and efficient UI development.
+- Material-UI Grid: Leveraged to create a responsive layout that adapts to various screen sizes while maintaining design integrity.
+- JavaScript ES6: Modern JavaScript features for cleaner code and better functionality.
+- CSS3: Advanced styling techniques for animations and responsive design.
+- Additional libraries: 'React-icons' for a vast selection of icons and 'Typed.js' for creating typing animations.
 
-### `npm run build`
+#### How to launch
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To launch an application you would need to execute ```npm install``` and then ```npm start```.
