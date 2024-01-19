@@ -3,6 +3,8 @@
 This project is a one-page portfolio website highlighting my coding projects on GitHub. The website boasts a minimalist design, 
 offering ease of customization, with each project card dynamically updating to ensure anyone can adapt this template for personal use.
 
+![porfolio](https://github.com/aleksagal/portfolio/assets/137703211/0bd35209-b83d-4be8-b068-58a990006db9)
+
 #### Features
 
 Each project card dynamically displays information such as the project name, description, and technologies used.
