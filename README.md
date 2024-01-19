@@ -1,9 +1,9 @@
-# Introducing Portfolio
+### Introducing Portfolio
 
 This project is a one-page portfolio website highlighting my coding projects on GitHub. The website boasts a minimalist design, 
 offering ease of customization, with each project card dynamically updating to ensure anyone can adapt this template for personal use.
 
-![porfolio](https://github.com/aleksagal/portfolio/assets/137703211/0bd35209-b83d-4be8-b068-58a990006db9)
+![porfolio](https://github.com/aleksagal/portfolio/assets/137703211/c5eb2647-6f11-451d-85c0-b044dea776c0)
 
 #### Features
 
