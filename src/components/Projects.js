@@ -10,12 +10,12 @@ export default function Projects() {
               alignItems="stretch"
               justifyContent="flex-start"
               sx={{
-                  padding: {xs: 6, sm: 6, md: 6, lg: 18, xl: 18},
+                  padding: {xs: 6, sm: 6, md: 6, lg: 20, xl: 20},
                   paddingTop: {xs: 4, sm: 4, md: 4, lg: 4, xl: 4},
                   paddingBottom: {xs: 3, sm: 6, md: 6, lg: 6, xl: 6}
               }}
         >
-            <Grid item xs={12} sm={6} md={4} lg={4}>
+            <Grid item xs={12} sm={12} md={6} lg={4}>
                 <div className="project">
                     <Project
                         name="SayHi"
@@ -26,7 +26,7 @@ export default function Projects() {
                     />
                 </div>
             </Grid>
-            <Grid item xs={12} sm={6} md={4} lg={4}
+            <Grid item xs={12} sm={12} md={6} lg={4}
                   sx={{display: 'flex', flexDirection: 'column'}}>
                 <div className="project" style={{flex: 1}}>
                     <Project
@@ -38,7 +38,7 @@ export default function Projects() {
                     />
                 </div>
             </Grid>
-            <Grid item xs={12} sm={6} md={4} lg={4}
+            <Grid item xs={12} sm={12} md={6} lg={4}
                   sx={{display: 'flex', flexDirection: 'column'}}>
                 <div className="project" style={{flex: 1}}>
                     <EmptyProject/>

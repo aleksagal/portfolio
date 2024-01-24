@@ -1,5 +1,4 @@
-import React, {useRef, useEffect, useState} from 'react';
-import Typed from 'typed.js';
+import React, {useState} from 'react';
 import {Grid} from "@mui/material";
 import profile from '../profile.png'
 import './header.css';
@@ -13,41 +12,18 @@ import {CiLinkedin} from "react-icons/ci";
 
 export default function Header() {
     const [hovered, setHovered] = useState(false);
-    const el = useRef(null);
-    const typed = useRef(null);
-
-    useEffect(() => {
-        const options = {
-            strings: [
-                'FRONTEND DEVELOPER',
-                'FRONT',
-                'FRONTEND DEVELOPER',
-                'FRONT',
-                'FRONTEND DEVELOPER',
-            ],
-            typeSpeed: 100,
-            backSpeed: 100,
-        };
-
-        typed.current = new Typed(el.current, options);
-
-
-        return () => {
-            typed.current.destroy();
-        }
-    }, [])
 
     return (
         <Grid container spacing={{xs: 4, sm: 4, md: 5, lg: 6, xl: 6}}
               sx={{
-                  padding: {xs: 6, sm: 6, md: 6, lg: 18, xl: 18},
+                  padding: {xs: 6, sm: 6, md: 6, lg: 20, xl: 20},
                   paddingBottom: {xs: 2, sm: 2, md: 2, lg: 2, xl: 2},
                   paddingTop: {xs: 3, sm: 6, md: 6, lg: 6, xl: 6}
               }}
               justifyContent="flex-end"
               alignItems="flex-start"
         >
-            <Grid item xs={12} sm={6} md={4} lg={4}>
+            <Grid item xs={12} sm={12} md={6} lg={4}>
                 <div className={`header_profile ${hovered ? 'hovered' : ''}`}
                      onMouseEnter={() => setHovered(true)}
                      onMouseLeave={() => setHovered(false)}
@@ -63,7 +39,7 @@ export default function Header() {
                     </div>
                 </div>
             </Grid>
-            <Grid item xs={12} sm={6} md={8} lg={8} sx={{textAlign: 'left'}}>
+            <Grid item xs={12} sm={12} md={6} lg={8} sx={{textAlign: 'left'}}>
                 <div className="header_icons" style={{textAlign: 'right'}}>
                     <FaReact className="icon1"/>
                     <IoLogoJavascript className="icon2"/>
@@ -73,21 +49,22 @@ export default function Header() {
                 <div className="header_content">
                     <h1>
                         Hello, there!
-                        <span style={{color: '#575075',}}> <MdOutlineWavingHand/></span>
+                        <span style={{color: '#575075', fontSize: '1.4rem'}}> <MdOutlineWavingHand/></span>
                     </h1>
                     <h2>
                         Aleksandra Gałat
                         <a href={"https://www.linkedin.com/in/aleksandra-ga%C5%82at-226257197/"}
-                           style={{margin: '3px', fontSize: '1.5rem', color: '#C6C6C6'}}><CiLinkedin/></a>
+                           style={{margin: '3px', fontSize: '1.5rem', color: '#C6C6C6'}}>
+                            <CiLinkedin/>
+                        </a>
                     </h2>
-                    <div>
-                        <span style={{color: '#845899', fontSize: '1.2rem', fontWeight: 'bold'}} ref={el}/>
-                    </div>
-
+                    <p>
+                        FRONTEND DEVELOPER
+                    </p>
                     <h3>
-                        <span style={{color: '#575075', fontFamily: 'Dawning of a New Day'}}>&lt;h3&gt; </span>
-                        Projects
-                        <span style={{color: '#575075', fontFamily: 'Dawning of a New Day'}}> &lt;/h3&gt;</span>
+                        <span>&lt;h4&gt; </span>
+                            Projects
+                        <span> &lt;/h4&gt;</span>
                     </h3>
                 </div>
             </Grid>

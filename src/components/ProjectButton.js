@@ -14,6 +14,7 @@ const ProjectButton = ({onClick}) => {
                 borderColor: '#36385C',
                 color: '#575075',
                 gap: '5px',
+                fontSize: '1.1rem',
                 fontFamily: 'Jura',
                 fontWeight: 'bold',
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease',

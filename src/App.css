@@ -1,9 +1,7 @@
 .App {
   text-align: center;
-  background:  linear-gradient(208deg, #20233D 9.05%, #151515 63.72%);
   color: #B1B1B1;
   font-family: 'Jura', sans-serif;
-
 }
 
 .App-header {
@@ -19,13 +17,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
